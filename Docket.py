@@ -9,7 +9,7 @@ def read_file(file_name):
     """
     with open(file_name, "r") as file:
         return [line.strip().split(",") for line in file]
-
+#This is a comment
 def write_file(file_name, data):
     """ Writes a list of lists to a file.
 
