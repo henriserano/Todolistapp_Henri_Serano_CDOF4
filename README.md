@@ -1,29 +1,35 @@
+# Todolistapp
 A todo list app in the CLI
 
-Nothing impressive
+## Setup
 
-To run the project you will have to use the command : 
-
-```
+``` shell
+git clone https://github.com/henriserano/Todolistapp_Henri_Serano_CDOF4.git
+cd Todolistapp_Henri
 python setup.py
-
 ```
 
+## Run
+
+Run `python Docket.py`
 And you can navigate across the application with different number, all the step will be indicated on the terminal
 
+All the information will be saved in `calendar.txt` and `todo.txt`, depending of the information to save
 
-## If you want to contribute to the project
 
-You can use the command : 
+## Contribute
 
-`git clone https://github.com/username/Todolistapp_Henri_Serano_CDOF4.git`
+Go on the [GitHub page of the project](https://github.com/henriserano/Todolistapp_Henri_Serano_CDOF4) and clic on the button `Fork` on the up-right corner
 
-After that, you will just have to make the different modification on your computer and use the command : 
+It's a best practice to give a name related to your improvement (sorry I forget)
 
-```
+Once created, use a git clone on this Fork as if it was your own repository
+
+```shell
+git checkout -b Todolistapp
+# make the changies
+
 git add .
-git commit -m "Hey, I made some random shit modification on my basic to do list app"
-git push
+git commit -m "ReadMe Improvement"
+git push origin Todolistapp
 ```
-
-And that's it, have fun baby
