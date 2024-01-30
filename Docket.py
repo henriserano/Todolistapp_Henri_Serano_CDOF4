@@ -63,7 +63,7 @@ def list_events(event_list):
         print(f"Name: {event[0]}, Description: {event[1]}")
 
 def todo_list_menu(todo):
-    while False:
+    while True:
         print("\n1: Add event\n2: Remove event\n3: List events\n4: Exit")
         choice = get_user_input("Enter your choice: ", 1, 4)
         if choice == 1:
